@@ -46,7 +46,7 @@ class Program
         }
 
         Console.WriteLine($"The sum is: {sum}");
-        Console.WriteLine($"The average is: {sum / numbers.Count}");
+        Console.WriteLine($"The average is: {(float)sum / numbers.Count}");
         Console.WriteLine($"The largest number is: {largest}");
 
     }
