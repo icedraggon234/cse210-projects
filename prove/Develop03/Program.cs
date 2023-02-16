@@ -62,7 +62,7 @@ class Program
 
                     
 
-            do 
+             while (response.ToLower() != "quit" && shownWords.Count() > 0)
             {
                 HideRandomWords(shownWords, wordsToHideAtATime);
                 Console.Clear();
@@ -74,7 +74,7 @@ class Program
                 
 
 
-            } while (response.ToLower() != "quit" && shownWords.Count() > 0);
+            }
         }
 
 
