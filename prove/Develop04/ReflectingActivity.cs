@@ -61,7 +61,7 @@ public class ReflectingActivity : MindfulnessActivity
         while (DateTime.Now < activityEndTime)
         {
             randomReflectiveQuestion = RandomItemSelection(_reflectiveQuestionsBackup, _reflectiveQuestions);
-            PauseAnimation(1, $"{randomReflectiveQuestion} ");
+            PauseAnimation(15, $"{randomReflectiveQuestion} ");
         }
 
         Console.WriteLine("\nWell Done!");
